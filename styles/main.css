@@ -34,3 +34,10 @@ body::-webkit-scrollbar{
     margin-left:25%;
 }
 
+.order {
+
+}
+
+.floattext {
+    font-size: calc((4vh + 4vw) /2);
+}
