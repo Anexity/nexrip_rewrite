@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    margin:0%
+    margin:0%;
+    font-family: main;
 }
 body {
     background-color: #161616;
@@ -28,10 +29,10 @@ body::-webkit-scrollbar{
 }
 
 .foreground {
-    width:30%;
-    height:30%;
+    width:30.5%;
+    height:30.5%;
     margin-top:-47%;
-    margin-left:40%;
+    margin-left:41%;
     display:flex;
     background-color: #15151550;
     border-radius: 6vw;
@@ -43,7 +44,7 @@ body::-webkit-scrollbar{
 }
 
 .floattext {
-    margin-top:-46.5%;
+    margin-top:-46.25%;
     justify-content: center;
     text-align: left;
     margin-left: -25%;
@@ -84,12 +85,6 @@ body::-webkit-scrollbar{
     background-color: #15151580;
 }
 
-@font-face {
-    font-family: main;
-    src: url();
-    font-weight: 300;
-}
-
 .floattext a {
     display: flexbox;
     padding-inline:3%;
@@ -100,4 +95,38 @@ body::-webkit-scrollbar{
     border-radius: 2vw;
     padding:2vw
     
+}
+
+footer a:link {
+    text-decoration: none;
+    color: white;
+    padding-inline:3vw;
+}
+
+footer a:hover {
+    color: #bbddff;
+}
+
+footer {
+    padding-top:2.5%;
+    padding-bottom:1%;
+    display: flex;
+    justify-content: center;
+    border-top: dashed;
+    border-width: 0.5vw;
+    position: relative;
+    top: -2vh;
+    border-color: #151515;
+
+}
+
+.footr {
+    color:white
+}
+
+
+@font-face {
+    font-family: main;
+    src: url(../fonts/outfit/Outfit-Light.otf);
+    font-weight: 300;
 }
