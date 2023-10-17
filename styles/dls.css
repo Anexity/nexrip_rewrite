@@ -1,34 +1,42 @@
-.foreground2 {
-    width:7vw;
-    height:7vw;
-    margin-top:-54%;
-    margin-left:88%;
-    display:flex;
-    background-color: #15151550;
-    border-radius: 2vw;
-}
-
-.dlborder {
-    width:20vw;
-    height:13.5vw;
-    padding-top:0.5vw;
-    padding-bottom:0.5vw;
+.foreground {
     margin-top:-45%;
-    display:flex;
+    width:35%;
+    height:35%;
+    margin-left:45%
 }
 
 .dlimg {
-    width:100%;
-    height:100%;
-    padding:5%;
+    width:13vw;
+    height:fit-content;
+    padding:3%;
     background-color:#15151550;
     border-radius: 3vw;
 }
 
-.dlborder a {padding-inline: 3%;}
+.dlborder a {
+    padding-inline: 3%;
+    padding: 5%;
+    display:inline-flex;
+}
 
+.dlborder {
+    overflow-x:hidden;
+    overflow-y:scroll;
+    height:35%;
+    width:35%;
+    background-color: #15151550;
+    margin-top:-45%;
+    display:flex;
+    justify-content: center;
+    margin-left:-45%;
+    border-radius: 6vw;
+}
+
+dlborder::-webkit-scrollbar{
+    display:unset
+}
 .textlimit p {
-    background-color: #15151530;
+    background-color: #15151550;
     font-size: xx-large;
     border-radius: 1vw;
     height:fit-content;
