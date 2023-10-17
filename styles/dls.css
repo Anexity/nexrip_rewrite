@@ -1,14 +1,13 @@
 .dlimg {
-    width:10vw;
-    height:fit-content;
+    width:7vw;
+    height:7vw;
     padding:3%;
     background-color:#15151550;
     border-radius: 3vw;
 }
 
 .dlborder a {
-    padding-inline: 3%;
-    padding: 5%;
+    padding: 2.5%;
     display:inline-flex;
 }
 
@@ -29,44 +28,4 @@
 
 .dlborder::-webkit-scrollbar{
     display:unset
-}
-.textlimit p {
-    background-color: #15151550;
-    font-size: xx-large;
-    border-radius: 1vw;
-    height:fit-content;
-    padding:0.5vw;
-}
-
-.textlimit {
-    text-align: center;
-    margin-top: -52.5%;
-    display:flex;
-    justify-content:center;
-}
-
-.floattext2 {
-    margin-top:-54%;
-    justify-content: center;
-    text-align: left;
-    margin-left: -73%;
-    width:25%;
-}
-
-.backarrow {
-    filter: invert(100%);
-    width: 7vw;
-    height: 7vw;
-}
-
-.floattext2 a {
-    display: flexbox;
-    padding-inline:3%;
-}
-
-.floattext2 img {
-    background-color: #e5e5e550;
-    border-radius: 2vw;
-    padding:2vw
-    
 }

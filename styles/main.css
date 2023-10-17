@@ -130,3 +130,29 @@ footer {
     src: url(../fonts/outfit/Outfit-Light.otf);
     font-weight: 300;
 }
+
+.floattext2 {
+    margin-top:-33.3%;
+    justify-content: center;
+    text-align: left;
+    margin-left: -73%;
+    width:25%;
+}
+
+.backarrow {
+    filter: invert(100%);
+    width: 3vw;
+    height: 3vw;
+}
+
+.floattext2 a {
+    display: flexbox;
+    padding-inline:3%;
+}
+
+.floattext2 img {
+    background-color: #e5e5e550;
+    border-radius: 1vw;
+    padding:0.5vw
+    
+}
