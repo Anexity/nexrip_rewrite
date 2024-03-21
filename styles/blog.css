@@ -1,0 +1,16 @@
+* {
+    margin:0;
+    background-color: #2e3440;
+}
+
+.TC1 p {
+    text-align: center;
+    font-size: 75px;
+    font-family: monospace;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.TC1 {
+    margin: 3%;
+}
